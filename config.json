@@ -1,0 +1,16 @@
+{
+"DJs":[], 
+"Admins":[],
+	"shards": [
+		"Mzc5NDIwMTExOTAxMDMyNDQ4.DPig4g.7bL1TH9roqIHunzSQdbHGHZF_Cw"
+	],
+	"mountpoints": [
+		{
+			"mount": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+			"channels": [
+				"379420582275579909"
+			],
+			"DJId": "230166225135599618"
+		}
+	]
+}

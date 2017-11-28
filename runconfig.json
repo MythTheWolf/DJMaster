@@ -1,0 +1,7 @@
+{
+"name":"DJMaster",
+"main":"com.myththewolf.DJMaster.DJMasterMain",
+"author":"MythTheWolf",
+"description":"A DJ Bot to hookup those jams",
+"version":"1"
+}
