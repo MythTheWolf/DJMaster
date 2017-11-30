@@ -19,7 +19,9 @@ import com.myththewolf.DJMaster.lib.bots.StreamPlayer;
 import com.myththewolf.DJMaster.lib.commands.IsAdmin;
 import com.myththewolf.DJMaster.lib.commands.IsDj;
 import com.myththewolf.DJMaster.lib.commands.PlayHere;
+import com.myththewolf.DJMaster.lib.commands.PlayOn;
 import com.myththewolf.DJMaster.lib.commands.PlayStream;
+import com.myththewolf.DJMaster.lib.commands.mkmount;
 import com.myththewolf.DJMaster.lib.commands.shardify;
 
 public class DJMasterMain implements BotPlugin {
@@ -56,6 +58,8 @@ public class DJMasterMain implements BotPlugin {
 			arg0.registerCommand("!play", new PlayStream());
 			arg0.registerCommand("!isdj", new IsDj());
 			arg0.registerCommand("!addchannel", new PlayHere());
+			arg0.registerCommand("!playon", new PlayOn());
+			arg0.registerCommand("!mkmount", new mkmount());
 			arg0.registerCommand("!stop", exec -> {
 				String ID = exec.getSender().getId();
 				List<StreamPlayer> PL = Maps.PLAYERS.stream()
